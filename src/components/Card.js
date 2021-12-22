@@ -5,7 +5,7 @@ const Card = (props) => {
 
   return (
     <div className="card-container">
-      <img className="card-image" src={props.cardData.userImageURL} />
+      <img className="card-image" src={props.cardData.userImageURL} alt="" />
       <div className="card-inner-container">
         <h1 className="card-heading">Photo By {props.cardData.user}</h1>
         <ul>
