@@ -10,15 +10,15 @@ const Card = (props) => {
         <h1 className="card-heading">Photo By {props.cardData.user}</h1>
         <ul>
           <li>
-            <strong>Views:</strong>
+            <strong>Views: </strong>
             {props.cardData.views}
           </li>
           <li>
-            <strong>Downloads:</strong>
+            <strong>Downloads: </strong>
             {props.cardData.downloads}
           </li>
           <li>
-            <strong>Likes:</strong>
+            <strong>Likes: </strong>
             {props.cardData.likes}
           </li>
         </ul>
