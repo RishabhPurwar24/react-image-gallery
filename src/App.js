@@ -8,7 +8,7 @@ import CardContainer from "./components/CardContainer";
 function App() {
   const [query, setQuery] = useState("");
   const [items, setItems] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
 
   const queryHandler = (searchedValue) => {
     setQuery(searchedValue);
@@ -22,7 +22,7 @@ function App() {
 
       // this will give array of items
       setItems(result.data.hits);
-      setIsLoading(false);
+      // setIsLoading(false);
     };
     fetchItems();
   }, [query]);
